@@ -1,0 +1,41 @@
+# Feature engineering configuration
+embedding_model: "all-MiniLM-L6-v2"
+embedding_dim: 384
+pca_components_response_diff: 50
+pca_components_prompt: 20
+max_text_length_for_embedding: 512
+
+# Feature toggles
+readability_enabled: true
+structural_features_enabled: true
+similarity_features_enabled: true
+quality_signals_enabled: true
+bias_mitigation_enabled: true
+
+# Text processing
+hedging_words:
+  - "perhaps"
+  - "maybe"
+  - "might"
+  - "could be"
+  - "possibly"
+  - "arguably"
+  - "it seems"
+  - "I think"
+
+confidence_words:
+  - "certainly"
+  - "definitely"
+  - "clearly"
+  - "obviously"
+  - "undoubtedly"
+  - "absolutely"
+  - "without a doubt"
+
+example_indicators:
+  - "for example"
+  - "e.g."
+  - "such as"
+  - "for instance"
+  - "consider"
+  - "like"

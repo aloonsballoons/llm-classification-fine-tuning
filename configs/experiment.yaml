@@ -1,0 +1,5 @@
+# Experiment configuration
+name: "baseline-v1"
+seed: 42
+debug: true
+debug_sample_size: 2000

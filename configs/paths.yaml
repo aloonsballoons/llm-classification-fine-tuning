@@ -1,0 +1,11 @@
+# File paths configuration
+kaggle_data_dir: "/kaggle/input/competitions/llm-classification-finetuning"
+data_dir: "data"
+output_dir: "outputs"
+train_file: "train.csv"
+test_file: "test.csv"
+sample_submission: "sample_submission.csv"
+log_dir: "logs"
+model_dir: "models"
+prediction_dir: "predictions"
+report_dir: "reports"
